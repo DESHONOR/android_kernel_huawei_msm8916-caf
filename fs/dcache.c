@@ -96,6 +96,7 @@ static struct kmem_cache *dentry_cache __read_mostly;
  * This hash-function tries to avoid losing too many bits of hash
  * information, yet avoid using a prime hash-size or similar.
  */
+
 #define D_HASHBITS     d_hash_shift
 #define D_HASHMASK     d_hash_mask
 
